@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
      Copyright (C) 2013-2016 The CyanogenMod Project
-               (C) 2017 The LineageOS Project
+                   2017-2022 The LineageOS Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -16,8 +16,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="switch_bar_on">Zapnuto</string>
-    <string name="switch_bar_off">Vypnuto</string>
     <string name="device_settings_app_name">Pokročilé nastavení</string>
     <string name="screen_gestures_panel_title">Gesta</string>
     <string name="touchscreen_gesture_extras">Doplňky</string>
@@ -54,7 +52,7 @@
     <string name="user_aware_display_title">Všímat si uživatele</string>
     <string name="user_aware_display_summary">Pokud je uživatel před obrazovkou, nechat ji zapnutou</string>
     <string name="ambient_display_title">Ambientní zobrazení</string>
-    <string name="ambient_display_enable_title">Ambientní zobrazení</string>
+    <string name="ambient_display_enable_title">Použít ambientní displej</string>
     <string name="ambient_display_enable_summary">Probudit obrazovku při upozornění</string>
     <string name="ambient_display_gestures_title">Gesta ambientního displeje</string>
     <string name="ambient_display_gestures_summary">Další gesta k probuzení obrazovky</string>
@@ -72,12 +70,15 @@
     <string name="hand_wave_gesture_flat_summary">Pulsovat pouze v případě, když telefon leží na rovné ploše obrazovkou nahoru</string>
     <string name="pick_up_gesture_title">Sebrání</string>
     <string name="pick_up_gesture_summary">Upozornit pulsováním při sebrání</string>
+    <string name="pick_up_wake_gesture_summary">Probudit zařízení při zvednutí</string>
     <string name="pocket_gesture_title">Kapsa</string>
     <string name="pocket_gesture_summary">Upozornit pulsováním při vyjmutí z kapsy</string>
     <string name="proximity_wake_title">Probudit přiblížením</string>
     <string name="proximity_wake_enable_title">Probudit přiblížením</string>
     <string name="proximity_wake_enable_summary">Probudit zařízení pomocí zamávání rukou</string>
     <string name="actions_title">Akce</string>
+    <string name="device_gestures_panel_summary">Speciální gesta zařízení</string>
+    <string name="moto_gestures_panel_title">Moto gesta</string>
     <string name="camera_gesture_title">Dvojité otočení</string>
     <string name="camera_gesture_summary">Otevřít fotoaparát gestem dvojitého otočení</string>
     <string name="chop_chop_gesture_title">Chop-chop</string>
@@ -99,6 +100,7 @@
     <string name="feedback_intensity_medium">Střední</string>
     <string name="feedback_intensity_high">Vysoká</string>
     <string name="dialog_ok">OK</string>
+    <string name="disabled">Žádná</string>
     <string name="doze_settings_help_title">Uživatelská příručka</string>
     <string name="doze_settings_help_text">Tyto funkce používají události senzorů ke spuštění pulzování oznámení. Vybraný senzor je zapnut pouze v případě přijetí upozornění, což vede k úspoře baterie. Je zde i možnost zapnout daný senzor ihned po vypnutí obrazovky, ale dochází k většímu vybíjení.</string>
     <string name="button_panel_title">Další tlačítka</string>

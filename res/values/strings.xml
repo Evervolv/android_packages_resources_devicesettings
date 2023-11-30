@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
      Copyright (C) 2013-2016 The CyanogenMod Project
-               (C) 2017 The LineageOS Project
+                   2017-2022 The LineageOS Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -18,12 +18,6 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- DO NOT TRANSLATE Empty summary for dynamic preferences -->
     <string name="summary_empty" translatable="false"></string>
-
-    <!-- Label for feature switch [CHAR LIMIT=30] -->
-    <string name="switch_bar_on">On</string>
-
-    <!-- Label for feature switch [CHAR LIMIT=30] -->
-    <string name="switch_bar_off">Off</string>
 
     <!-- Device specific settings -->
     <string name="device_settings_app_name">Advanced settings</string>
@@ -74,7 +68,7 @@
 
     <!-- Ambient Display -->
     <string name="ambient_display_title">Ambient display</string>
-    <string name="ambient_display_enable_title">Ambient display</string>
+    <string name="ambient_display_enable_title">Use ambient display</string>
     <string name="ambient_display_enable_summary">Wake screen when you receive notifications</string>
     <string name="ambient_display_gestures_title">Ambient display gestures</string>
     <string name="ambient_display_gestures_summary">Additional gestures to wake the screen</string>
@@ -115,6 +109,8 @@
 
     <!-- Device actions -->
     <string name="actions_title">Actions</string>
+    <string name="device_gestures_panel_summary">Special device gestures</string>
+    <string name="moto_gestures_panel_title">Moto gestures</string>
 
     <!-- Camera gesture -->
     <string name="camera_gesture_title">Double-twist</string>

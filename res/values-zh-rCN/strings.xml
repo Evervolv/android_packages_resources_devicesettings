@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
      Copyright (C) 2013-2016 The CyanogenMod Project
-               (C) 2017 The LineageOS Project
+                   2017-2022 The LineageOS Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -16,8 +16,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="switch_bar_on">开</string>
-    <string name="switch_bar_off">关</string>
     <string name="device_settings_app_name">高级设置</string>
     <string name="screen_gestures_panel_title">手势</string>
     <string name="touchscreen_gesture_extras">附加功能</string>
@@ -54,7 +52,7 @@
     <string name="user_aware_display_title">用户感知显示</string>
     <string name="user_aware_display_summary">当使用者在屏幕前时保持屏幕开启</string>
     <string name="ambient_display_title">环境显示</string>
-    <string name="ambient_display_enable_title">环境显示</string>
+    <string name="ambient_display_enable_title">使用主动显示</string>
     <string name="ambient_display_enable_summary">当接收到通知时唤醒屏幕</string>
     <string name="ambient_display_gestures_title">环境显示手势</string>
     <string name="ambient_display_gestures_summary">唤醒屏幕的附加手势</string>
@@ -62,7 +60,7 @@
     <string name="ambient_display_summary_on">当接收到通知时将唤醒屏幕</string>
     <string name="ambient_display_summary_off">当接收到通知时将不会唤醒屏幕</string>
     <string name="ambient_display_always_on_title">始终开启</string>
-    <string name="ambient_display_always_on_summary">显示时间、通知图标和其他信息。这会增加电池使用量。</string>
+    <string name="ambient_display_always_on_summary">显示时间、通知图标和其他信息。这会增加耗电量。</string>
     <string name="tilt_sensor_title">倾斜传感器</string>
     <string name="pickup_sensor_title">拾取传感器</string>
     <string name="proximity_sensor_title">距离传感器</string>
@@ -72,12 +70,15 @@
     <string name="hand_wave_gesture_flat_summary">仅当手机屏幕朝上且放置于平坦表面时点亮屏幕</string>
     <string name="pick_up_gesture_title">拿起</string>
     <string name="pick_up_gesture_summary">拿起时唤醒屏幕</string>
+    <string name="pick_up_wake_gesture_summary">拿起时唤醒设备</string>
     <string name="pocket_gesture_title">口袋</string>
     <string name="pocket_gesture_summary">从口袋中拿出时唤醒屏幕</string>
     <string name="proximity_wake_title">距离传感器唤醒</string>
     <string name="proximity_wake_enable_title">距离传感器唤醒</string>
     <string name="proximity_wake_enable_summary">挥手时唤醒设备</string>
     <string name="actions_title">操作</string>
+    <string name="device_gestures_panel_summary">特殊设备手势</string>
+    <string name="moto_gestures_panel_title">Moto 手势</string>
     <string name="camera_gesture_title">扭动两次</string>
     <string name="camera_gesture_summary">当扭动两次时打开相机</string>
     <string name="chop_chop_gesture_title">摇动两次</string>
@@ -99,6 +100,7 @@
     <string name="feedback_intensity_medium">中</string>
     <string name="feedback_intensity_high">高</string>
     <string name="dialog_ok">确定</string>
+    <string name="disabled">已禁用</string>
     <string name="doze_settings_help_title">帮助</string>
     <string name="doze_settings_help_text">这些功能使用传感器事件来启用打盹通知指示灯。所选的传感器仅在设备收到通知时启用，这有助于降低电池消耗。还有一个选项是在屏幕关闭后马上启用所选的传感器，这会消耗更多的电量。</string>
     <string name="button_panel_title">更多按键</string>

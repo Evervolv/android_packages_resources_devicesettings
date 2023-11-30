@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
      Copyright (C) 2013-2016 The CyanogenMod Project
-               (C) 2017 The LineageOS Project
+                   2017-2022 The LineageOS Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -16,8 +16,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="switch_bar_on">Activé</string>
-    <string name="switch_bar_off">Désactivé</string>
     <string name="device_settings_app_name">Paramètres avancés</string>
     <string name="screen_gestures_panel_title">Gestes</string>
     <string name="touchscreen_gesture_extras">Extras</string>
@@ -54,7 +52,7 @@
     <string name="user_aware_display_title">Affichage selon l\'utilisateur</string>
     <string name="user_aware_display_summary">Garder l\'écran allumé tant qu\'un utilisateur le regarde</string>
     <string name="ambient_display_title">Affichage ambiant</string>
-    <string name="ambient_display_enable_title">Affichage ambiant</string>
+    <string name="ambient_display_enable_title">Utiliser l\'affichage ambiant</string>
     <string name="ambient_display_enable_summary">Allume l\'écran lorsque vous recevez des notifications</string>
     <string name="ambient_display_gestures_title">Options de l\'affichage en mode Veille</string>
     <string name="ambient_display_gestures_summary">Gestes supplémentaires pour réveiller l’écran</string>
@@ -72,12 +70,15 @@
     <string name="hand_wave_gesture_flat_summary">Réveiller uniquement si le téléphone est posé face vers le haut sur une surface plane</string>
     <string name="pick_up_gesture_title">Prise en main</string>
     <string name="pick_up_gesture_summary">Afficher les notifications lors de la prise en main</string>
+    <string name="pick_up_wake_gesture_summary">Réveiller l’appareil à la prise en main</string>
     <string name="pocket_gesture_title">Poche</string>
     <string name="pocket_gesture_summary">Le voyant des notifications clignote en sortie de poche</string>
     <string name="proximity_wake_title">Activation de proximité</string>
     <string name="proximity_wake_enable_title">Activation de proximité</string>
     <string name="proximity_wake_enable_summary">Réveiller l\'appareil par passage de main</string>
     <string name="actions_title">Actions</string>
+    <string name="device_gestures_panel_summary">Gestes spéciaux de l\'appareil</string>
+    <string name="moto_gestures_panel_title">Gestes Moto</string>
     <string name="camera_gesture_title">Double torsion</string>
     <string name="camera_gesture_summary">Ouvrir l\'appareil photo avec le geste de double torsion</string>
     <string name="chop_chop_gesture_title">Double tranchage</string>
@@ -99,6 +100,7 @@
     <string name="feedback_intensity_medium">Moyenne</string>
     <string name="feedback_intensity_high">Élevée</string>
     <string name="dialog_ok">OK</string>
+    <string name="disabled">Désactivé</string>
     <string name="doze_settings_help_title">Aide</string>
     <string name="doze_settings_help_text">Ces fonctionnalités utilisent des capteurs pour afficher les notifications en mode sommeil. Le capteur choisi est activé uniquement lorsque l\'appareil reçoit une notification, cela aide à réduire l\'utilisation de la batterie. Il y a également une option pour activer le capteur choisi aussitôt que l\'écran s\'éteint, mais cela causera une utilisation plus importante de la batterie.</string>
     <string name="button_panel_title">Boutons supplémentaires</string>

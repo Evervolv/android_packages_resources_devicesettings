@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
      Copyright (C) 2013-2016 The CyanogenMod Project
-               (C) 2017 The LineageOS Project
+                   2017-2022 The LineageOS Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -36,7 +36,6 @@
     <string name="user_aware_display_title">Kasutaja teadlik ekraan</string>
     <string name="user_aware_display_summary">Hoia ekraan sees, kui kasutaja on ekraani ees</string>
     <string name="ambient_display_title">Ambient ekraan</string>
-    <string name="ambient_display_enable_title">Säästlik ekraan</string>
     <string name="ambient_display_enable_summary">Ärata ekraan teavituste saabumisel</string>
     <string name="ambient_display_gestures_title">Säästliku ekraani žestid</string>
     <string name="ambient_display_gestures_summary">Täiendavad žestid ekraani äratamiseks</string>
@@ -47,6 +46,7 @@
     <string name="hand_wave_gesture_summary">Näita teavitust käe viibutusele</string>
     <string name="pick_up_gesture_title">Tõsta üles</string>
     <string name="pick_up_gesture_summary">Kuva teavitusi seadme tõstmisel</string>
+    <string name="pick_up_wake_gesture_summary">Ärata seade ülestõstuga</string>
     <string name="pocket_gesture_title">Tasku</string>
     <string name="pocket_gesture_summary">Näita teavitusi taskust välja võtmisel</string>
     <string name="proximity_wake_title">Läheduse äratus</string>
@@ -61,6 +61,7 @@
     <string name="feedback_intensity_low">Madal</string>
     <string name="feedback_intensity_medium">Keskmine</string>
     <string name="feedback_intensity_high">Kõrge</string>
+    <string name="disabled">Keelatud</string>
     <string name="high_touch_sensitivity_title">Kõrge puutetundlikus</string>
     <string name="high_touch_sensitivity_summary">Ekraani puutetundlikkuse suurendamine, et kasutada ekraani kinnastega</string>
     <string name="quick_charge_title">Kiirlaadimine</string>

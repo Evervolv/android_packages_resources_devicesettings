@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
      Copyright (C) 2013-2016 The CyanogenMod Project
-               (C) 2017 The LineageOS Project
+                   2017-2022 The LineageOS Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -16,8 +16,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="switch_bar_on">Käytössä</string>
-    <string name="switch_bar_off">Pois käytöstä</string>
     <string name="device_settings_app_name">Lisäasetukset</string>
     <string name="screen_gestures_panel_title">Eleet</string>
     <string name="touchscreen_gesture_extras">Ekstrat</string>
@@ -35,7 +33,7 @@
     <string name="touchscreen_s_gesture_title">Viestit</string>
     <string name="touchscreen_s_gesture_summary">Piirrä \"S\" avataksesi viestisovelluksen</string>
     <string name="touchscreen_v_gesture_title">Puhelin</string>
-    <string name="touchscreen_v_gesture_summary">Piirrä \"V\" avataksesi puhelusovelluksen</string>
+    <string name="touchscreen_v_gesture_summary">Avaa puhelusovellus piirtämällä \"V\"</string>
     <string name="touchscreen_w_gesture_title">Selain</string>
     <string name="touchscreen_w_gesture_summary">Piirrä \"W\" avataksesi selaimen</string>
     <string name="touchscreen_z_gesture_title">Taskulamppu</string>
@@ -54,7 +52,6 @@
     <string name="user_aware_display_title">Käyttäjän tunnistava näyttö</string>
     <string name="user_aware_display_summary">Pidä näyttö päällä kun käyttäjä on näytön edessä</string>
     <string name="ambient_display_title">Ambient-näyttö</string>
-    <string name="ambient_display_enable_title">Ambient-näyttö</string>
     <string name="ambient_display_enable_summary">Herätä näyttö kun saat ilmoituksia</string>
     <string name="ambient_display_gestures_title">Ambienr-näytön eleet</string>
     <string name="ambient_display_gestures_summary">Lisäeleet näytön herättämiseen</string>
@@ -72,6 +69,7 @@
     <string name="hand_wave_gesture_flat_summary">Näytä ilmoitukset vain jos puhelin on näyttö ylöspäin tasaisella alustalla</string>
     <string name="pick_up_gesture_title">Nosto</string>
     <string name="pick_up_gesture_summary">Näytä ilmoitukset nostaessa laitetta</string>
+    <string name="pick_up_wake_gesture_summary">Herätä laite nostettaessa</string>
     <string name="pocket_gesture_title">Tasku</string>
     <string name="pocket_gesture_summary">Näytä ilmoitukset kun laite otetaan taskusta</string>
     <string name="proximity_wake_title">Läheisyysanturin herätys</string>
@@ -99,6 +97,7 @@
     <string name="feedback_intensity_medium">Keskitaso</string>
     <string name="feedback_intensity_high">Korkea</string>
     <string name="dialog_ok">OK</string>
+    <string name="disabled">Pois käytöstä</string>
     <string name="doze_settings_help_title">Apua</string>
     <string name="doze_settings_help_text">Ominaisuudet käyttää sensorin tapahtumia näyttääkseen ilmoituksia. Valittu sensori on vain käytössä kun laite saa ilmoituksen, tämä auttaa vähentämään akun kulutusta. Voit myös ottaa sensorit käyttöön kun näyttö on suljettu, mutta tämä kasvattaa akun kulutusta.</string>
     <string name="button_panel_title">Lisänäppäimet</string>

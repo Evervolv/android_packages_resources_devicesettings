@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
      Copyright (C) 2013-2016 The CyanogenMod Project
-               (C) 2017 The LineageOS Project
+                   2017-2022 The LineageOS Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -16,8 +16,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="switch_bar_on">Aan</string>
-    <string name="switch_bar_off">Uit</string>
     <string name="device_settings_app_name">Geavanceerde instellingen</string>
     <string name="screen_gestures_panel_title">Gebaren</string>
     <string name="touchscreen_gesture_extras">Extra\'s</string>
@@ -54,8 +52,9 @@
     <string name="user_aware_display_title">Gebruikersbewust scherm</string>
     <string name="user_aware_display_summary">Scherm aan houden als de gebruiker voor het scherm zit</string>
     <string name="ambient_display_title">Omgevingsdisplay</string>
-    <string name="ambient_display_enable_title">Omgevingsdisplay</string>
+    <string name="ambient_display_enable_title">Gebruik omgevingsweergave</string>
     <string name="ambient_display_enable_summary">Scherm aan bij het ontvangen van meldingen</string>
+    <string name="ambient_display_gestures_title">Omgevingsdisplay gebaren</string>
     <string name="ambient_display_gestures_summary">Extra gebaren om het scherm aan te zetten</string>
     <string name="ambient_display_summary">Scherm aan bij het ontvangen van meldingen</string>
     <string name="ambient_display_summary_on">Scherm gaat aan bij het ontvangen van meldingen</string>
@@ -63,6 +62,7 @@
     <string name="ambient_display_always_on_title">Altijd aan</string>
     <string name="ambient_display_always_on_summary">Tijd, meldingspictogrammen en andere informatie weergeven. Hoger accuverbruik.</string>
     <string name="tilt_sensor_title">Hellingssensor</string>
+    <string name="pickup_sensor_title">Oppak sensor</string>
     <string name="proximity_sensor_title">Nabijheidssensor</string>
     <string name="hand_wave_gesture_title">Handgebaar</string>
     <string name="hand_wave_gesture_summary">Meldingen laten knipperen bij handgebaar</string>
@@ -70,12 +70,15 @@
     <string name="hand_wave_gesture_flat_summary">Alleen knipperen als de telefoon met het scherm naar boven ligt op een plat oppervlak</string>
     <string name="pick_up_gesture_title">Oppakken</string>
     <string name="pick_up_gesture_summary">Meldingen laten knipperen bij oppakken</string>
+    <string name="pick_up_wake_gesture_summary">Apparaat ontwaken bij oppakken</string>
     <string name="pocket_gesture_title">Broekzak</string>
     <string name="pocket_gesture_summary">Meldingen laten knipperen bij verwijderen uit broekzak</string>
     <string name="proximity_wake_title">Ontwaken bij dichtbij</string>
     <string name="proximity_wake_enable_title">Ontwaken bij dichtbij</string>
     <string name="proximity_wake_enable_summary">Apparaat ontwaken bij handgebaar</string>
     <string name="actions_title">Acties</string>
+    <string name="device_gestures_panel_summary">Speciaal apparaatgebaren</string>
+    <string name="moto_gestures_panel_title">Moto gebaren</string>
     <string name="camera_gesture_title">Double-twist</string>
     <string name="camera_gesture_summary">Camera openen bij gebruik van het \'double-twist\'-gebaar</string>
     <string name="chop_chop_gesture_title">Chop-chop</string>
@@ -97,6 +100,7 @@
     <string name="feedback_intensity_medium">Gemiddeld</string>
     <string name="feedback_intensity_high">Hoog</string>
     <string name="dialog_ok">OK</string>
+    <string name="disabled">Uitgeschakeld</string>
     <string name="doze_settings_help_title">Help</string>
     <string name="doze_settings_help_text">Deze functies gebruiken sensoren om een Doze-puls te versturen. De gekozen sensor is alleen ingeschakeld als het apparaat een melding ontvangt. Dit helpt het batterijgebruik te verminderen. Er is ook een optie om de sensor te activeren zodra het scherm uitschakelt, maar dit leidt tot hoger batterijgebruik.</string>
     <string name="button_panel_title">Extra knoppen</string>
@@ -113,4 +117,10 @@
     <string name="fingerprint_sleep_summary">Vingerafdruksensor gebruiken om scherm uit te zetten</string>
     <string name="high_touch_sensitivity_title">Hoge aanraakgevoeligheid</string>
     <string name="high_touch_sensitivity_summary">Gevoeligheid van het scherm verhogen, zodat het bediend kan worden met handschoenen</string>
+    <string name="quick_charge_title">Snelladen</string>
+    <string name="quick_charge_summary">Snelladen in-/uitschakelen. Koppel de lader opnieuw na het wijzigen van deze instelling</string>
+    <string name="camera_focus_fix_title">Camera focus fix</string>
+    <string name="camera_focus_fix_summary">Inschakelen als u problemen heeft met het scherpstellen van de camera</string>
+    <string name="wake_on_gesture_title">Wakker worden met gebaren</string>
+    <string name="wake_on_gesture_summary">Het apparaat ontwaken in plaats van meldingen te krijgen bij gebaren</string>
 </resources>

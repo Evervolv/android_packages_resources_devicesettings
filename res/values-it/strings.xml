@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
      Copyright (C) 2013-2016 The CyanogenMod Project
-               (C) 2017 The LineageOS Project
+                   2017-2022 The LineageOS Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -16,8 +16,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="switch_bar_on">On</string>
-    <string name="switch_bar_off">Off</string>
     <string name="device_settings_app_name">Impostazioni avanzate</string>
     <string name="screen_gestures_panel_title">Gesture</string>
     <string name="touchscreen_gesture_extras">Extra</string>
@@ -54,7 +52,7 @@
     <string name="user_aware_display_title">Visualizzazione utente</string>
     <string name="user_aware_display_summary">Tiene lo schermo accesso quando l\'utente lo guarda</string>
     <string name="ambient_display_title">Ambient display</string>
-    <string name="ambient_display_enable_title">Ambient display</string>
+    <string name="ambient_display_enable_title">Usa ambient display</string>
     <string name="ambient_display_enable_summary">Attiva lo schermo quando ricevi notifiche</string>
     <string name="ambient_display_gestures_title">Gesti Ambient display</string>
     <string name="ambient_display_gestures_summary">Ulteriori gesti per attivare lo schermo</string>
@@ -71,13 +69,16 @@
     <string name="hand_wave_gesture_flat_title">Rileva orientamento</string>
     <string name="hand_wave_gesture_flat_summary">Visualizza solo se il telefono é appoggiato orizzontalmente su una superficie piatta</string>
     <string name="pick_up_gesture_title">Sollevamento</string>
-    <string name="pick_up_gesture_summary">Mostra notifiche al sollavamento</string>
+    <string name="pick_up_gesture_summary">Mostra notifiche al sollevamento</string>
+    <string name="pick_up_wake_gesture_summary">Risveglia il dispositivo alzandolo</string>
     <string name="pocket_gesture_title">Tasca</string>
     <string name="pocket_gesture_summary">Mostra notifiche quando togli dalla tasca</string>
     <string name="proximity_wake_title">Risveglio prossimità</string>
     <string name="proximity_wake_enable_title">Risveglio prossimità</string>
     <string name="proximity_wake_enable_summary">Risveglia il dispositivo al passaggio della mano</string>
     <string name="actions_title">Azioni</string>
+    <string name="device_gestures_panel_summary">Gesti speciali del dispositivo</string>
+    <string name="moto_gestures_panel_title">Gesti Motorola</string>
     <string name="camera_gesture_title">Doppio scuotimento</string>
     <string name="camera_gesture_summary">Apri la fotocamera quando scuoti due volte</string>
     <string name="chop_chop_gesture_title">Chop-chop</string>
@@ -99,6 +100,7 @@
     <string name="feedback_intensity_medium">Media</string>
     <string name="feedback_intensity_high">Alta</string>
     <string name="dialog_ok">OK</string>
+    <string name="disabled">Disattivato</string>
     <string name="doze_settings_help_title">Guida</string>
     <string name="doze_settings_help_text">Queste funzioni utilizzano i sensori per mostrare le notifiche. Il sensore selezionato verrà attivato solo quando il dispositivo riceve una notifica, questo consentirà di ridurre l\'utilizzo della batteria. È anche possibile attivare il sensore selezionato appena lo schermo si spegne, ma ciò comporterà ad un utilizzo maggiore della batteria.</string>
     <string name="button_panel_title">Pulsanti aggiuntivi</string>

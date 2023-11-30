@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
      Copyright (C) 2013-2016 The CyanogenMod Project
-               (C) 2017 The LineageOS Project
+                   2017-2022 The LineageOS Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -16,8 +16,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="switch_bar_on">Be</string>
-    <string name="switch_bar_off">Ki</string>
     <string name="device_settings_app_name">Speciális beállítások</string>
     <string name="screen_gestures_panel_title">Kézmozdulatok</string>
     <string name="touchscreen_gesture_extras">Extrák</string>
@@ -54,7 +52,7 @@
     <string name="user_aware_display_title">Felhasználó-érzékelő kijelző</string>
     <string name="user_aware_display_summary">Tartsa bekapcsolva a képernyőt, míg a felhasználó a kijelző előtt van</string>
     <string name="ambient_display_title">Környezeti kijelző</string>
-    <string name="ambient_display_enable_title">Környezeti kijelző</string>
+    <string name="ambient_display_enable_title">A Környezeti kijelző használata</string>
     <string name="ambient_display_enable_summary">Képernyő ébresztése értesítések fogadásakor</string>
     <string name="ambient_display_gestures_title">Környezeti kijelzőhöz kapcsolódó mozdulatok</string>
     <string name="ambient_display_gestures_summary">További mozdulat-vezélőgesztusok a kijelző felébresztéséhez</string>
@@ -72,12 +70,15 @@
     <string name="hand_wave_gesture_flat_summary">Értesítések felvillantása csak akkor, ha a telefon kijelzővel felfelé fekszik sima felületen</string>
     <string name="pick_up_gesture_title">Kézbevétel</string>
     <string name="pick_up_gesture_summary">Értesítések felvillantása kézbevételkor</string>
+    <string name="pick_up_wake_gesture_summary">Készülékébresztés felemeléskor</string>
     <string name="pocket_gesture_title">Zseb</string>
     <string name="pocket_gesture_summary">Értesítések felvillantása zsebből való kivételkor</string>
     <string name="proximity_wake_title">Közelség ébresztés</string>
     <string name="proximity_wake_enable_title">Közelség ébresztés</string>
     <string name="proximity_wake_enable_summary">Készülék ébresztése lebegő simításra</string>
     <string name="actions_title">Műveletek</string>
+    <string name="device_gestures_panel_summary">Speciális készülékvezérlők</string>
+    <string name="moto_gestures_panel_title">Moto-vezérlés</string>
     <string name="camera_gesture_title">Dupla megforgatás</string>
     <string name="camera_gesture_summary">Kamera megnyitása dupla megforgatási mozdulatra</string>
     <string name="chop_chop_gesture_title">Tak-tak</string>
@@ -99,6 +100,7 @@
     <string name="feedback_intensity_medium">Közepes</string>
     <string name="feedback_intensity_high">Magas</string>
     <string name="dialog_ok">Rendben</string>
+    <string name="disabled">Letiltva</string>
     <string name="doze_settings_help_title">Súgó</string>
     <string name="doze_settings_help_text">Ezen funkció az érzékelő eseményeket használja a környezeti kijelző értesítési impulzusaihoz. A választott érzékelő csak akkor engedélyezett, ha a készülék értesítést kap, ez segít csökkenteni az akkumulátor használatát. Lehetőség van a választott érzékelő engedélyezésére is, amint a képernyő kikapcsol, de ez nagyobb akkumulátor használatot jelent.</string>
     <string name="button_panel_title">További gombok</string>

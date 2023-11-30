@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
      Copyright (C) 2013-2016 The CyanogenMod Project
-               (C) 2017 The LineageOS Project
+                   2017-2022 The LineageOS Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -16,8 +16,6 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="switch_bar_on">Ligado</string>
-    <string name="switch_bar_off">Desligado</string>
     <string name="device_settings_app_name">Configurações avançadas</string>
     <string name="screen_gestures_panel_title">Gestos</string>
     <string name="touchscreen_gesture_extras">Extras</string>
@@ -54,7 +52,6 @@
     <string name="user_aware_display_title">Tela que reconhece o usuário</string>
     <string name="user_aware_display_summary">Manter a tela ligada enquanto houver um usuário na frente dela</string>
     <string name="ambient_display_title">Tela ambiente</string>
-    <string name="ambient_display_enable_title">Tela ambiente</string>
     <string name="ambient_display_enable_summary">Ligar tela ao receber notificações</string>
     <string name="ambient_display_gestures_title">Gestos do modo tela ambiente</string>
     <string name="ambient_display_gestures_summary">Gestos adicionais para ligar a tela</string>
@@ -99,6 +96,7 @@
     <string name="feedback_intensity_medium">Média</string>
     <string name="feedback_intensity_high">Alta</string>
     <string name="dialog_ok">OK</string>
+    <string name="disabled">Desativado</string>
     <string name="doze_settings_help_title">Ajuda</string>
     <string name="doze_settings_help_text">Esses recursos monitoram o sensor para que o dispositivo possa despertar do estado de repouso e pulsar notificações. O sensor escolhido só é habilitado quando o dispositivo recebe uma notificação, isso ajuda a reduzir o uso de bateria. Há também uma opção para ativar o sensor escolhido assim que a tela desliga, isso causará o maior uso da bateria.</string>
     <string name="button_panel_title">Botões adicionais</string>
